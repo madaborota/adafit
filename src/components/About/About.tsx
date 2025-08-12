@@ -8,8 +8,8 @@ const About = () => (
         <div className="col-md-9">
           <h2 className="fw-semibold mb-3" style={{fontFamily: 'Inter, Arial, sans-serif', fontWeight: 700, fontSize: '2rem'}}>About Me</h2>
           <div className="about-text-box p-3 rounded-4" style={{background: 'transparent'}}>
-            <p className="mb-2" style={{fontFamily: 'Inter, Arial, sans-serif', fontSize: '1.05rem'}}>I'm Ada, a fitness coach, former performance athlete, and health enthusiast. My programs are carefully created for women like you, focusing on building strength while maintaining feminine grace.</p>
-            <p className="mb-0" style={{fontFamily: 'Inter, Arial, sans-serif', fontSize: '1.05rem'}}>With over 10 years of experience in fitness training, I've developed <span className="badge bg-secondary px-2 py-1 mx-1">3 / 4</span> efficiently for women's bodies, helping you achieve your goals while enjoying the process.</p>
+            <p className="mb-2" style={{fontFamily: 'Inter, Arial, sans-serif', fontSize: '1.05rem'}}>Sunt Ada antrenor de fitness și instructor de Pilates, fostă sportivă de performanță cu 9 ani în scrimă. Creez antrenamente și planuri de nutriție personalizate ca să îți transform corpul, energia și stilul de viață. Cu disciplină și pasiune, obții rezultatele pe care le meriți! 💪✨</p>
+            <p className="mb-0" style={{fontFamily: 'Inter, Arial, sans-serif', fontSize: '1.05rem'}}>Creez antrenamente și planuri de nutriție personalizate ca să îți transform corpul, energia și stilul de viață. Cu disciplină și pasiune, obții rezultatele pe care le meriți!</p>
           </div>
         </div>
       </div>

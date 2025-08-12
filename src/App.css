@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Georgia:wght@400;700&display=swap');
+
+body {
+	font-family: 'Inter', Arial, sans-serif;
+	background: #fff;
+	color: #222;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Georgia', serif;
+	font-weight: 500;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	max-width: 1100px !important;
+}
+
+.hero-section {
+	min-height: 520px;
+}
+.hero-section .hero-bg-img {
+	left: 50%;
+	top: 40px;
+	transform: translateX(-50%);
+	opacity: 0.18;
+	filter: blur(1px);
+	pointer-events: none;
+}
+.hero-section .btn-dark {
+	border-radius: 2rem !important;
+	font-weight: 500;
+	font-size: 1.1rem;
+}
+.hero-section .ps-md-5 {
+	padding-left: 3.5rem !important;
+}
+.hero-section .countdown-box {
+	min-width: 320px;
+	background: #fff;
+	border-radius: 1.5rem;
+	box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+	padding: 2rem 2.5rem 1.5rem 2.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.hero-section .countdown-label {
+	font-size: 1rem;
+	color: #888;
+	margin-bottom: 1rem;
+}
+.hero-section .countdown-row {
+	display: flex;
+	gap: 2.2rem;
+}
+.hero-section .countdown-item {
+	text-align: center;
+}
+.hero-section .countdown-value {
+	font-size: 2.2rem;
+	font-family: 'Georgia', serif;
+	font-weight: 700;
+	color: #222;
+	line-height: 1;
+}
+.hero-section .countdown-unit {
+	font-size: 0.9rem;
+	color: #888;
+	letter-spacing: 0.05em;
+}
+
+.about-section {
+	background: #f6ede7 !important;
+}
+.about-section .about-img {
+	box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+.about-section .about-text-box {
+	font-size: 1.1rem;
+	line-height: 1.7;
+}
+
+.testimonials-section {
+	background: #f6ede7 !important;
+}
+.testimonials-section .card {
+	background: #fff;
+	border-radius: 1.5rem;
+	border: none;
+}
+.testimonials-section .dot {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.card {
+	border-radius: 1.5rem !important;
+}
+.card-title {
+	font-family: 'Georgia', serif;
+	font-weight: 500;
+}
+.btn-outline-dark {
+	border-radius: 2rem !important;
+	font-weight: 500;
+	background: #fff;
+	border: 1.5px solid #222;
+	color: #222;
+	transition: background 0.2s, color 0.2s, border 0.2s;
+}
+.btn-outline-dark:hover, .btn-outline-dark:focus {
+	background: #222 !important;
+	color: #fff !important;
+	border: 1.5px solid #222 !important;
+}
+.programs-section .card-body {
+	padding-bottom: 1.5rem;
+}
+
+.cta-section input.form-control {
+	border-radius: 2rem !important;
+	padding-left: 1.25rem;
+	height: 48px;
+	font-size: 1rem;
+}
+.cta-section .btn-dark {
+	border-radius: 2rem !important;
+	font-size: 1rem;
+	height: 48px;
+}
+
+@media (max-width: 767px) {
+	.display-4 {
+		font-size: 2.2rem;
+	}
+	.fw-semibold {
+		font-size: 1.1rem;
+	}
+	.hero-section .ps-md-5 {
+		padding-left: 1rem !important;
+	}
+	.hero-section .countdown-box {
+		min-width: 220px;
+		padding: 1.2rem 0.5rem 1rem 0.5rem;
+	}
+	.hero-section .countdown-row {
+		gap: 1.1rem;
+	}
+}
