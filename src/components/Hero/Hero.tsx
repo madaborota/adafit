@@ -38,7 +38,7 @@ const Hero = () => {
         <div className="row align-items-center">
           <div className="col-md-6 text-center text-md-start ">
             <img src="/divider.png" alt="Ada Fit Logo" className="mb-4 " style={{ maxWidth: '90%' }} />
-            <h1 className="display-4 fw-normal mb-3" style={{ fontFamily: 'Inter, Arial, sans-serif', fontWeight: 700 }}>Tansformă-ți corpul<br />cu Ada Fit</h1>
+            <h1 className="display-4 fw-normal mb-3" style={{ fontFamily: 'Inter, Arial, sans-serif', fontWeight: 700 }}>Tansformă-ți corpul AAA<br />cu Ada Fit</h1>
             <p className="lead mb-4" style={{ fontFamily: 'Inter, Arial, sans-serif' }}>Programe video de antrenament și Pilates, create pentru a-ți tonifia corpul, a-ți crește energia și a-ți transforma stilul de viață.</p>
             <button className="btn btn-dark px-4 py-2 mt-2 rounded-pill" style={{ minWidth: 120 }}>Incepe acum</button>
           </div>

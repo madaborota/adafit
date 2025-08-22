@@ -6,19 +6,18 @@ const testimonials = [
     img: "/testimoniale1.jpeg"
   },
   {
-    text: "Nu credeam că Pilatesul poate avea un impact atât de mare asupra tonifierii musculaturii! Fiecare ședință este diferită, provocatoare, dar și relaxantă în același timp. Ada reușește să creeze o atmosferă plăcută și motivantă. Rezultatele se văd, iar spatele meu nu a mai fost niciodată atât de drept!",
-    name: "Elena P.",
-    details: "Clase Pilates cu Ada",
+    text: "Dedicarea si implicarea pe care le are Ada la fiecare sedinta de antrenament personal ma determina si pe mine sa pun 100% efort la toate intalnirile noastre. Nu am crezut niciodata ca voi ajunge sa spun ca imi place sa fac sport, dar de cand ma antrenez cu ea, abia astept urmatoarea sedinta sa vad ce exercitii mi-a mai pregatit.",
+    name: "Oana T",
+    details: "Antrenorul meu personal Ada",
     img: "/testimoniale3.jpeg"
   },
   {
-    text: "Antrenamentele cu Ada în sală sunt next level! Îți explică tot, de la tehnică corectă până la respirație, și știe exact cum să te motiveze. Am câștigat masă musculară, am crescut în forță și am învățat să mă antrenez eficient, fără să pierd timpul.",
-    name: "Ioana D.",
+    text: "Sunt extrem de încântată de colaborarea cu Ada! Deși nu mai făcusem sport de foarte mulți ani și aveam emoții legate de cum va decurge totul, m-a surprins plăcut încă de la prima ședință. Este foarte serioasă, implicată și atentă la nevoile fiecăruia.",
+    name: "Ada F",
     details: "Antrenorul meu personal Ada",
     img: "/testimoniale2.jpeg"
   },
 ];
-
 import { useEffect, useState } from "react";
 
 const Testimonials = () => {
