@@ -53,6 +53,9 @@ h1, h2, h3, h4, h5, h6 {
 .hero-section {
 	min-height: 520px;
 }
+.hero-section .hero-right-col {
+	min-height: 520px;
+}
 .hero-section .hero-bg-img {
 	left: 50%;
 	top: 40px;
@@ -182,5 +185,8 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	.hero-section .countdown-row {
 		gap: 1.1rem;
+	}
+	.hero-section .hero-right-col {
+		min-height: 380px;
 	}
 }

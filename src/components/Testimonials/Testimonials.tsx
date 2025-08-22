@@ -1,21 +1,21 @@
 const testimonials = [
   {
-    text: "Ada's toning program completely transformed my energy and confidence. The workouts are challenging yet doable, and I love how she explains the purpose behind each exercise.",
-    name: "Maria C.",
-    details: "Toning Program Member, 6 months",
-    img: "/src/assets/client-maria.png"
+    text: "Clasele de Pilates pentru tonifiere cu Ada sunt absolut minunate! În doar câteva săptămâni am observat cum corpul meu a devenit mai ferm, postura mea s-a îmbunătățit și mă simt mult mai energică. Ada explică fiecare exercițiu cu răbdare și îți corectează postura astfel încât să ai rezultate maxime. Astept cu nerabdare programele pentru acasa. ",
+    name: "Madalina B.",
+    details: "Clase Pilates cu Ada",
+    img: "/testimoniale1.jpeg"
   },
   {
-    text: "The mobility & stretching program helped me recover from an old injury and feel more flexible than ever. Highly recommend Ada's approach!",
+    text: "Nu credeam că Pilatesul poate avea un impact atât de mare asupra tonifierii musculaturii! Fiecare ședință este diferită, provocatoare, dar și relaxantă în același timp. Ada reușește să creeze o atmosferă plăcută și motivantă. Rezultatele se văd, iar spatele meu nu a mai fost niciodată atât de drept!",
     name: "Elena P.",
-    details: "Mobility Program Member, 3 months",
-    img: "/src/assets/client-elena.png"
+    details: "Clase Pilates cu Ada",
+    img: "/testimoniale3.jpeg"
   },
   {
-    text: "I love the HIIT workouts! They're short, effective, and fit perfectly into my busy schedule. Ada keeps me motivated every session.",
+    text: "Antrenamentele cu Ada în sală sunt next level! Îți explică tot, de la tehnică corectă până la respirație, și știe exact cum să te motiveze. Am câștigat masă musculară, am crescut în forță și am învățat să mă antrenez eficient, fără să pierd timpul.",
     name: "Ioana D.",
-    details: "HIIT Program Member, 1 year",
-    img: "/src/assets/client-ioana.png"
+    details: "Antrenorul meu personal Ada",
+    img: "/testimoniale2.jpeg"
   },
 ];
 
@@ -31,26 +31,22 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <section className="testimonials-section py-5" style={{background: '#f6ede7'}}>
+    <section className="testimonials-section py-5" style={{ background: '#f6ede7' }}>
       <div className="container">
-  <h2 className="text-center mb-5" style={{fontFamily: 'Inter, Arial, sans-serif', fontWeight: 700, fontSize: '2rem'}}>What My Clients Say</h2>
+        <h2 className="text-center mb-5" style={{ fontFamily: 'Inter, Arial, sans-serif', fontWeight: 700, fontSize: '2rem' }}>Testimoniale</h2>
         <div className="row justify-content-center">
           <div className="col-md-8">
-            <div className="card shadow-sm p-4 mb-4 border-0 rounded-4 position-relative" style={{minHeight: 220, fontFamily: 'Inter, Arial, sans-serif'}}>
-              <div className="mb-3">
-                <span className="fs-1 lh-1">&ldquo;</span>
-              </div>
-              <div className="mb-3">
-                <span className="badge bg-secondary px-2 py-1 mx-1">3 / 4</span>
-              </div>
-              <p className="mb-3 fst-italic" style={{fontSize: '1.05rem', fontFamily: 'Inter, Arial, sans-serif'}}>
+            <div className="card shadow-sm p-4 mb-4 border-0 rounded-4 position-relative" style={{ minHeight: 220, fontFamily: 'Inter, Arial, sans-serif' }}>
+              <span className="fs-1 lh-1 text-dark" style={{ fontSize: '2.5rem', fontWeight: 500, position: 'absolute', top: 20, left: 30, zIndex: 0 }}>&ldquo;</span>
+              <p className="mb-3 fst-italic position-relative" style={{ fontSize: '1.15rem', fontFamily: 'Inter, Arial, sans-serif', zIndex: 1, lineHeight: 1.7, paddingLeft: 32, paddingRight: 32 }}>
                 {testimonials[active].text}
+                <span className="text-dark" style={{ fontSize: '2rem', fontWeight: 500, verticalAlign: 'bottom' }}>&rdquo;</span>
               </p>
               <div className="d-flex align-items-center mt-3">
-                <img src={testimonials[active].img} alt={testimonials[active].name} className="rounded-circle me-3" style={{width: 40, height: 40, objectFit: 'cover'}} />
+                <img src={testimonials[active].img} alt={testimonials[active].name} className="rounded-circle me-3" style={{ width: 40, height: 40, objectFit: 'cover' }} />
                 <div>
-                  <div className="fw-semibold" style={{fontFamily: 'Inter, Arial, sans-serif'}}>{testimonials[active].name}</div>
-                  <div className="small text-muted" style={{fontFamily: 'Inter, Arial, sans-serif'}}>{testimonials[active].details}</div>
+                  <div className="fw-semibold" style={{ fontFamily: 'Inter, Arial, sans-serif' }}>{testimonials[active].name}</div>
+                  <div className="small text-muted" style={{ fontFamily: 'Inter, Arial, sans-serif' }}>{testimonials[active].details}</div>
                 </div>
               </div>
             </div>
@@ -59,7 +55,7 @@ const Testimonials = () => {
                 <span
                   key={idx}
                   className={`dot mx-1 ${active === idx ? 'bg-dark' : 'bg-secondary'}`}
-                  style={{width: 8, height: 8, borderRadius: '50%', display: 'inline-block'}}
+                  style={{ width: 8, height: 8, borderRadius: '50%', display: 'inline-block' }}
                 ></span>
               ))}
             </div>

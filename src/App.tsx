@@ -12,7 +12,7 @@ const App = () => (
     <header className="container-fluid border-bottom py-2 bg-white sticky-top" style={{ zIndex: 100 }}>
       <div className="container d-flex justify-content-between align-items-center">
         <div style={{height: 56, display: 'flex', alignItems: 'center'}}>
-          <img src="/adafit_logo.png" alt="Ada Fit Logo" style={{height: 56, maxWidth: 160, transform: 'scale(1.35)', objectFit: 'contain'}} />
+          <img src="/adafit_logo.png" alt="Ada Fit Logo" style={{height: 79, maxWidth: 160, transform: 'scale(1.6-)', objectFit: 'contain'}} />
         </div>
         <nav>
           <a href="#about" className="text-dark text-decoration-none mx-3">Despre</a>
