@@ -49,7 +49,7 @@ const Hero = () => {
               backgroundImage: 'linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.85)), url("/1.png")',
               backgroundRepeat: 'no-repeat, no-repeat',
               backgroundPosition: 'center center, center 60px',
-              // Make gradient cover the entire column, and the image tall vs. height using clamp
+              // Make gradient cover the entire column, and the image tall vs. height using
               backgroundSize: '100% 100%, auto clamp(440px, 67vh, 670px)',
               filter: 'grayscale(60%)'
             }}
