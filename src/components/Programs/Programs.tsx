@@ -41,7 +41,7 @@ const Programs = () => (
         {/* Card 3 */}
         <div className="col-md-4">
           <div className="card h-100 shadow-sm border-0 rounded-4 p-2">
-            <img src="home.jpg" className="card-img-top rounded-4" alt="At-Home HIIT" style={{ height: 220, objectFit: 'cover' }} />
+            <img src="home.JPG" className="card-img-top rounded-4" alt="At-Home HIIT" style={{ height: 220, objectFit: 'cover' }} />
             <div className="card-body d-flex flex-column justify-content-between">
               <div>
                 <h5 className="card-title mb-2" style={{ fontFamily: 'Inter, Arial, sans-serif', fontWeight: 600, fontSize: '1.1rem' }}>At-Home HIIT</h5>
