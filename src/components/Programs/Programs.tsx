@@ -8,7 +8,7 @@ const Programs = () => (
         {/* Card 1 */}
         <div className="col-md-4">
           <div className="card h-100 shadow-sm border-0 rounded-4 p-2">
-            <img src="public/toning.JPG" className="card-img-top rounded-4" alt="Toning Program" style={{ height: 220, objectFit: 'cover' }} />
+            <img src="toning.JPG" className="card-img-top rounded-4" alt="Toning Program" style={{ height: 220, objectFit: 'cover' }} />
             <div className="card-body d-flex flex-column justify-content-between">
               <div>
                 <h5 className="card-title mb-2" style={{ fontFamily: 'Inter, Arial, sans-serif', fontWeight: 600, fontSize: '1.1rem' }}>Toning Program</h5>
@@ -25,7 +25,7 @@ const Programs = () => (
         {/* Card 2 */}
         <div className="col-md-4">
           <div className="card h-100 shadow-sm border-0 rounded-4 p-2">
-            <img src="public/pilates.JPG" className="card-img-top rounded-4" alt="Mobility, Stretching & Pilates" style={{ height: 220, objectFit: 'cover' }} />
+            <img src="pilates.JPG" className="card-img-top rounded-4" alt="Mobility, Stretching & Pilates" style={{ height: 220, objectFit: 'cover' }} />
             <div className="card-body d-flex flex-column justify-content-between">
               <div>
                 <h5 className="card-title mb-2" style={{ fontFamily: 'Inter, Arial, sans-serif', fontWeight: 600, fontSize: '1.1rem' }}>Mobility, Stretching & Pilates</h5>
@@ -41,7 +41,7 @@ const Programs = () => (
         {/* Card 3 */}
         <div className="col-md-4">
           <div className="card h-100 shadow-sm border-0 rounded-4 p-2">
-            <img src="public/home.jpg" className="card-img-top rounded-4" alt="At-Home HIIT" style={{ height: 220, objectFit: 'cover' }} />
+            <img src="home.jpg" className="card-img-top rounded-4" alt="At-Home HIIT" style={{ height: 220, objectFit: 'cover' }} />
             <div className="card-body d-flex flex-column justify-content-between">
               <div>
                 <h5 className="card-title mb-2" style={{ fontFamily: 'Inter, Arial, sans-serif', fontWeight: 600, fontSize: '1.1rem' }}>At-Home HIIT</h5>

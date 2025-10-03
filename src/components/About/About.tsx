@@ -3,7 +3,7 @@ const About = () => (
     <div className="container">
       <div className="row align-items-center flex-md-nowrap flex-wrap">
         <div className="col-md-3 d-flex justify-content-center mb-3 mb-md-0">
-          <img src="public/adaada2.jpg" alt="Ada" className="rounded-circle border border-3 border-white shadow about-img" style={{width: 200, height: 200, objectFit: 'cover'}} />
+          <img src="adaada2.jpg" alt="Ada" className="rounded-circle border border-3 border-white shadow about-img" style={{width: 200, height: 200, objectFit: 'cover'}} />
         </div>
         <div className="col-md-9">
           <div className="about-text-box p-3 rounded-4" style={{background: 'transparent'}}>
