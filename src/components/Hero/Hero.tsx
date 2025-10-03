@@ -45,11 +45,12 @@ const Hero = () => {
           <div
             className="col-md-6 position-relative d-flex flex-column align-items-center justify-content-center hero-right-col"
             style={{
-              backgroundImage: 'linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url("/IMG_2266.jpeg")',
+              backgroundImage: 'linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.85)), url("/1.png")',
               backgroundRepeat: 'no-repeat, no-repeat',
-              backgroundPosition: 'center center, center -40px',
+              backgroundPosition: 'center center, center 60px',
               // Make gradient cover the entire column, and the image tall vs. height using clamp
-              backgroundSize: '100% 100%, auto clamp(440px, 60vh, 680px)'
+              backgroundSize: '100% 100%, auto clamp(440px, 67vh, 670px)',
+              filter: 'grayscale(60%)'
             }}
           >
             {/* Countdown foreground */}
