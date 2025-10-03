@@ -1,10 +1,12 @@
+import NewsletterTrigger from "../Modal/NewsletterTrigger";
+
 const Contact = () => (
   <section className="bg-dark text-white py-5">
     <div className="container">
       <div className="row">
         <div className="col-md-4 mb-4 mb-md-0">
-         
-          <h5 className="fw-bold mb-3"> <img src="/adafit_logo.png" alt="Ada Fit Logo" style={{height: 80, maxWidth: 200, transform: 'scale(1.20)', objectFit: 'contain'}} />  Ada <span className="fw-light">FIT</span></h5>
+
+          <h5 className="fw-bold mb-3"> <img src="/adafit_logo.png" alt="Ada Fit Logo" style={{ height: 80, maxWidth: 200, transform: 'scale(1.20)', objectFit: 'contain' }} />  Ada <span className="fw-light">FIT</span></h5>
           <p className="small">Transformă-ți corpul, schimbă-ți viața! </p>
         </div>
         <div className="col-md-3 mb-4 mb-md-0">
@@ -24,6 +26,9 @@ const Contact = () => (
             <a href="#" className="text-white"><i className="bi bi-youtube"></i></a>
           </div>
           <div className="small">Email: andrada@adafit.com</div>
+          <div className="mt-3">
+            <NewsletterTrigger className="btn-sm bg-white text-dark px-3 py-2" options={{ submitLabel: 'Abonează-mă' }}>Începe acum</NewsletterTrigger>
+          </div>
         </div>
       </div>
       <div className="text-center small text-muted mt-4">&copy;Ada Fit 2025. All rights reserved.</div>
