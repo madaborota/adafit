@@ -39,18 +39,18 @@ const Hero = () => {
         <div className="row align-items-center">
           <div className="col-md-6 text-center text-md-start ">
             <img src="/divider.png" alt="Ada Fit Logo" className="mb-4 " style={{ maxWidth: '90%' }} />
-            <h1 className="display-4 fw-normal mb-3" style={{ fontFamily: 'Inter, Arial, sans-serif', fontWeight: 700 }}>Tansformă-ți corpul<br />cu Ada Fit</h1>
+            <h1 className="display-4 fw-normal mb-3" style={{ fontFamily: 'Inter, Arial, sans-serif', fontWeight: 700 }}>Tansformă-ți corpul<br />cu fit by Ada</h1>
             <p className="lead mb-4" style={{ fontFamily: 'Inter, Arial, sans-serif' }}>Programe video de antrenament și Pilates, create pentru a-ți tonifia corpul, a-ți crește energia și a-ți transforma stilul de viață.</p>
             <NewsletterTrigger className="px-4 py-2 fw-semibold"> Începe acum</NewsletterTrigger>
           </div>
           <div
             className="col-md-6 position-relative d-flex flex-column align-items-center justify-content-center hero-right-col"
             style={{
-              backgroundImage: 'linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.85)), url("/1.png")',
+              backgroundImage: 'linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.85)), url("/15.png")',
               backgroundRepeat: 'no-repeat, no-repeat',
-              backgroundPosition: 'center center, center 60px',
+              backgroundPosition: 'center center, center 5px',
               // Make gradient cover the entire column, and the image tall vs. height using
-              backgroundSize: '100% 100%, auto clamp(440px, 67vh, 670px)',
+              backgroundSize: '100% 100%, auto clamp(440px, 80vh, 670px)',
               filter: 'grayscale(60%)'
             }}
           >
