@@ -64,25 +64,25 @@ export const ModalProvider = ({ children }: { children: ReactNode }) => {
         e.preventDefault();
 
 
-        // const formdata = new FormData();
-        // formdata.append("email", inputRef.current?.value || "");
-        // console.log("Submitting email:", inputRef.current?.value || "");
+        const formdata = new FormData();
+        formdata.append("email", inputRef.current?.value || "");
+        console.log("Submitting email:", inputRef.current?.value || "");
 
-        // const requestOptions: RequestInit = {
-        //     method: "POST",
-        //     body: formdata,
-        //     redirect: "follow" as RequestRedirect
-        // };
+        const requestOptions: RequestInit = {
+            method: "POST",
+            body: formdata,
+            redirect: "follow" as RequestRedirect
+        };
 
-        // fetch("https://fit-backend.fastaudit.io/form.php", requestOptions)
-        //     .then((response) => response.text())
-        //     .then((result) => console.log(result))
-        //     .catch((error) => console.error(error));
+        fetch("https://fit-backend.fastaudit.io/form.php", requestOptions)
+            .then((response) => response.text())
+            .then((result) => console.log(result))
+            .catch((error) => console.error(error));
 
-        // setShowSuccess(true);
-        // setTimeout(() => {
-        //     close();
-        // }, 3000);
+        setShowSuccess(true);
+        setTimeout(() => {
+            close();
+        }, 3000);
     };
 
     return (
