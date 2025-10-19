@@ -9,7 +9,7 @@ const testimonials = [
   },
   {
     text: "Îmi lipsește mult, atât clasa de Pilates, cât și tu! Atmosfera pe care o creezi contează aproape la fel de mult ca exercițiile în sine. Personal, mă motivezi să mănânc mai sănătos, să am mai multă grijă de corpul meu și să pun sportul pe lista de priorități. Ești o inspirație! Orele de Pilates cu tine nu sunt doar un simplu antrenament, ci o experiență completă.",
-    name: "Oana T",
+    name: "Teodora",
     details: "Antrenorul meu personal Ada",
     img: "/oana1.jpeg"
   },
