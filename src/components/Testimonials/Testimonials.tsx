@@ -41,7 +41,7 @@ const testimonials = [
     text: "Dedicarea si implicarea pe care le are Ada la fiecare sedinta de antrenament personal ma determina si pe mine sa pun 100% efort la toate intalnirile noastre. Nu am crezut niciodata ca voi ajunge sa spun ca imi place sa fac sport, dar de cand ma antrenez cu ea, abia astept urmatoarea sedinta sa vad ce exercitii mi-a mai pregatit. Antrenamentele sunt gandite si pregatite dinainte, astfel incat timpul petrecut in sala este optimizat la maxim. Astfel, sportul a devenit din corvoada, placere! 😁",
     name: "Oana T.",
     details: "Antrenamente personalizate cu Ada",
-    img: "/oana1.jpeg"
+    img: "/oana2.jpeg"
   }
 ];
 
