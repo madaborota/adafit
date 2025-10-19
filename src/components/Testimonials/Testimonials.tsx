@@ -23,7 +23,7 @@ const testimonials = [
     text: "Sunt super intense și faine antrenamentele cu tine! 😇 Ora de Pilates e minunată, iar tu ești superbă și plină de energie pozitivă. Mulțumesc pentru vibe-ul tău de fiecare dată!",
     name: "Ada F.",
     details: "Clase de Pilates cu Ada",
-    img: "/adaF.jpeg"
+    img: "/adaF.png"
   },
   {
     text: "Mulțumesc, Ada, pentru dedicarea și inspirația pe care le aduci la fiecare antrenament. Ești o profesionistă desăvârșită, mereu atentă la nevoile fiecăruia și dedicată 100% rezultatelor. Sub îndrumarea ta, procesul de transformare devine o experiență plăcută și motivantă. Recomand cu încredere oricui își dorește rezultate reale și o ghidare atentă! ❤️",
