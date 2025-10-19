@@ -31,7 +31,7 @@ const Programs = () => (
               <div className="card-body d-flex flex-column justify-content-between">
               <div>
                 <h5 className="card-title mb-2" style={{ fontFamily: 'Inter, Arial, sans-serif', fontWeight: 600, fontSize: '1.1rem' }}>Mobility, Stretching & Pilates</h5>
-                <p className="card-text small mb-2">mbunătățește-ți flexibilitatea, postura și echilibrul cu un program de mobilitate, stretching și Pilates, potrivit pentru orice nivel, care te ajută să arzi calorii și să slăbești sănătos.</p>
+                <p className="card-text small mb-2">Îmbunătățește-ți flexibilitatea, postura și echilibrul cu un program de mobilitate, stretching și Pilates, potrivit pentru orice nivel, care te ajută să arzi calorii și să slăbești sănătos.</p>
               </div>
               <div className="d-flex align-items-center mt-3 w-100">
                 <span className="fw-semibold text-dark text-nowrap" style={{ fontSize: '1rem' }}>20 antrenamente</span>
@@ -48,7 +48,7 @@ const Programs = () => (
               <img src="meniu.jpeg" className="card-img-top rounded-4" alt="At-Home HIIT" style={{ height: 220, objectFit: 'cover' }} />
               <div className="card-body d-flex flex-column justify-content-between">
               <div>
-                <h5 className="card-title mb-2" style={{ fontFamily: 'Inter, Arial, sans-serif', fontWeight: 600, fontSize: '1.1rem' }}>Meniu sanatos personalizat</h5>
+                <h5 className="card-title mb-2" style={{ fontFamily: 'Inter, Arial, sans-serif', fontWeight: 600, fontSize: '1.1rem' }}>Meniu sănătos personalizat</h5>
                 <p className="card-text small mb-2">Slăbește mai ușor și menține-ți energia zilnică cu rețete echilibrate, simple și gustoase. Meniul este personalizat pentru obiectivele tale și îți oferă combinația ideală de nutrienți, ca să ai rezultate vizibile fără stres.</p>
               </div>
               <div className="d-flex align-items-center mt-3 w-100">
