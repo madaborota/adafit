@@ -21,7 +21,7 @@ const Contact = () => (
         <div className="col-md-3 mb-4 mb-md-0">
           <h6 className="fw-bold mb-3">Social Media</h6>
           <div className="mb-2">
-            <a href="#" className="text-white me-2"><i className="bi bi-instagram"></i></a>
+            <a href="https://www.instagram.com/andr_ada/?igsh=MTk3cHdhMTgxa2VkZw%3D%3D&utm_source=qr" className="text-white me-2"><i className="bi bi-instagram"></i></a>
             <a href="#" className="text-white me-2"><i className="bi bi-tiktok"></i></a>
             <a href="#" className="text-white"><i className="bi bi-youtube"></i></a>
           </div>
