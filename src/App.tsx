@@ -13,9 +13,9 @@ const App = () => (
     {/* Hero Section */}
     <div id="hero"><Hero /></div>
     {/* About Section */}
-    <div id="about"><About /></div>
+    <div id=""><About /></div>
     {/* Programs Section */}
-    <div id="programs"><Programs /></div>
+    <div id="_"><Programs /></div>
     {/* Testimonials Section */}
     <div id="testimonials"><Testimonials /></div>
     {/* CTA Section */}
