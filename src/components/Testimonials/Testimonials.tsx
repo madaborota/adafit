@@ -9,13 +9,13 @@ const testimonials = [
   },
   {
     text: "Îmi lipsește mult, atât clasa de Pilates, cât și tu! Atmosfera pe care o creezi contează aproape la fel de mult ca exercițiile în sine. Personal, mă motivezi să mănânc mai sănătos, să am mai multă grijă de corpul meu și să pun sportul pe lista de priorități. Ești o inspirație! Orele de Pilates cu tine nu sunt doar un simplu antrenament, ci o experiență completă.",
-    name: "Teodora",
+    name: "Teodora C.",
     details: "Antrenorul meu personal Ada",
     img: "/oana1.jpeg"
   },
   {
     text: "Draga mea, mă bucur enorm că am ales cursurile de pilates în urmă cu un an! Se vede că faci totul cu pasiune și experiență. După doar câteva săptămâni, mi-am recăpătat energia și motivația. Esti super profi, știi exact cum să adaptezi antrenamentele și să scoți tot ce e mai bun din fiecare. Mulțumesc pentru tot!",
-    name: "Carmen D",
+    name: "Carmen D.",
     details: "Antrenorul meu personal Ada",
     img: "/carmen.jpeg"
   },
@@ -30,6 +30,18 @@ const testimonials = [
     name: "Mirela S.",
     details: "Antrenamente personalizate cu Ada",
     img: "/mirela1.jpeg"
+  },
+  {
+    text: "Bună!🥰 Voiam să îți mulțumesc ptr tot!Sunt super intense și faine antrenamentele cu tine😇 Și ora de pilates e minunată iar tu ești superbă și drăguță☺️",
+    name: "Monica D.",
+    details: "Antrenamente personalizate cu Ada",
+    img: "/monica.jpeg"
+  },
+  {
+    text: "Dedicarea si implicarea pe care le are Ada la fiecare sedinta de antrenament personal ma determina si pe mine sa pun 100% efort la toate intalnirile noastre. Nu am crezut niciodata ca voi ajunge sa spun ca imi place sa fac sport, dar de cand ma antrenez cu ea, abia astept urmatoarea sedinta sa vad ce exercitii mi-a mai pregatit. Antrenamentele sunt gandite si pregatite dinainte, astfel incat timpul petrecut in sala este optimizat la maxim. Astfel, sportul a devenit din corvoada, placere! 😁",
+    name: "Oana T.",
+    details: "Antrenamente personalizate cu Ada",
+    img: "/oana1.jpeg"
   }
 ];
 
