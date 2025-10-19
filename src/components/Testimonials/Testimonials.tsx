@@ -20,7 +20,7 @@ const testimonials = [
     img: "/carmen.jpeg"
   },
   {
-    text: "Sunt super intense și faine antrenamentele cu tine! 😇 Ora de Pilates e minunată, iar tu ești superbă și plină de energie pozitivă. Mulțumesc pentru vibe-ul tău de fiecare dată!",
+    text: "Sunt extrem de încântată de colaborarea cu Ada! Deși nu mai făcusem sport de foarte mulți ani și aveam emoții legate de cum va decurge totul, m-a surprins plăcut încă de la prima ședință. Este foarte serioasă, implicată și atentă la nevoile fiecăruia.Exercițiile au fost mereu adaptate perfect la nivelul meu, fără să mă simt copleșită sau descurajată. Progresul se simte de la o ședință la alta, iar motivația a revenit treptat, tocmai datorită modului profesionist în care lucrează. Îți dă încredere, te susține și îți arată că se poate, indiferent de punctul de plecare.Recomand cu toată încrederea!",
     name: "Ada F.",
     details: "Clase de Pilates cu Ada",
     img: "/adaF.png"
