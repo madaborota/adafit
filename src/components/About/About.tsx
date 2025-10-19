@@ -8,7 +8,7 @@ const About = () => (
         <div className="col-md-9">
           <div className="about-text-box p-3 rounded-4" style={{background: 'transparent'}}>
             <h2 className="fw-semibold mb-3" style={{fontFamily: 'Inter, Arial, sans-serif', fontWeight: 500, fontSize: '2rem'}}> Despre mine</h2>
-            <p className="mb-2" style={{fontFamily: 'Inter, Arial, sans-serif', fontSize: '1.05rem'}}>Sunt Ada antrenor de fitness și instructor de Pilates, fostă sportivă de performanță cu 9 ani în scrimă. Creez antrenamente și planuri de nutriție personalizate ca să îți transform corpul, energia și stilul de viață. Cu disciplină și pasiune, obții rezultatele pe care le meriți!</p>
+            <p className="mb-2" style={{fontFamily: 'Inter, Arial, sans-serif', fontSize: '1.05rem'}}>Sunt Ada, antrenor de fitness și instructor de Pilates, fostă sportivă de performanță cu 9 ani în scrimă. Creez antrenamente și planuri de nutriție personalizate ca să îți transform corpul, energia și stilul de viață. Cu disciplină și pasiune, obții rezultatele pe care le meriți!</p>
           </div>
         </div>
       </div>
