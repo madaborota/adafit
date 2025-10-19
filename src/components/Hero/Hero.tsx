@@ -40,8 +40,8 @@ const Hero = () => {
           {/* Col stânga: TEXT */}
           <div className="col-12 col-md-6 text-center text-md-start d-flex flex-column align-items-start justify-content-center">
             <img src="/divider.png" alt="Ada Fit Logo" className="mb-4 mx-auto mx-md-0" style={{ maxWidth: '100%' }} />
-            <h1 className="display-4 fw-normal mb-3 ">Tansformă-ți corpul cu fit by Ada</h1>
-            <p className="lead mb-4" style={{ fontFamily: 'Inter, Arial, sans-serif' }}>Programe video de antrenament și Pilates, create pentru a-ți tonifia corpul, a-ți crește energia și a-ți transforma stilul de viață.</p>
+            <h1 className="display-4 fw-normal mb-3 ">Transformă-ți corpul cu fit by Ada</h1>
+            <p className="lead mb-4" style={{ fontFamily: 'Inter, Arial, sans-serif' }}>Programe video de antrenamente și Pilates, create pentru a-ți tonifia corpul, a-ți crește energia și a-ți transforma stilul de viață.</p>
             <NewsletterTrigger className="px-4 py-2 fw-semibold align-self-center align-self-md-start"> Începe acum</NewsletterTrigger>
           </div>
 
