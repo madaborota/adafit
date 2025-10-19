@@ -19,7 +19,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .hero-section .hero-bg-img {
 	left: 50%;
-	top: 40px;
 	transform: translateX(-50%);
 	opacity: 0.18;
 	filter: blur(1px);
