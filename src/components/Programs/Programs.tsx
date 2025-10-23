@@ -92,6 +92,7 @@ const Programs = () => (
       .programs-section .card:hover .card-zoom { transform: scale(1.03); }
       @media (max-width: 575.98px) {
         .programs-section .card:hover .card-zoom { transform: scale(1.015); }
+        .programs-section .card-img-top { object-position: top !important; }
       }
     `}</style>
   </section>

@@ -1,21 +1,32 @@
-import NewsletterTrigger from "../Modal/NewsletterTrigger"
+import NewsletterTrigger from "../Modal/NewsletterTrigger";
 
 export const Navbar = () => {
-
     return (
-
-        <header className="container-fluid border-bottom py-2 bg-white sticky-top" style={{ zIndex: 100 }}>
-            <div className="container d-flex justify-content-between align-items-center">
-                <div style={{ height: 56, display: 'flex', alignItems: 'center' }}>
-                    <img src="/adafit_logo.png" alt="Ada Fit Logo" style={{ height: 79, maxWidth: 160, transform: 'scale(1.6-)', objectFit: 'contain' }} />
+        <nav className="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top" style={{ zIndex: 100 }}>
+            <div className="container-fluid">
+                <a className="navbar-brand d-flex align-items-center" href="/" style={{ height: 56 }}>
+                    <img src="/adafit_logo.png" alt="Ada Fit Logo" style={{ height: 90, maxWidth: 120, objectFit: 'contain' }} />
+                </a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="mainNavbar">
+                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                        <li className="nav-item">
+                            <a href="#about" className="nav-link text-dark fw-semibold">Despre</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#programs" className="nav-link text-dark fw-semibold">Programe</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#testimonials" className="nav-link text-dark fw-semibold">Testimoniale</a>
+                        </li>
+                        <li className="nav-item ms-lg-3 mt-2 mt-lg-0">
+                            <NewsletterTrigger className="btn text-white btn-outline-dark rounded-pill px-3 py-1 fw-semibold" options={{ title: 'Newsletter' }}/>
+                        </li>
+                    </ul>
                 </div>
-                <nav>
-                    <a href="#about" className="text-dark text-decoration-none mx-1 mx-sm-3">Despre</a>
-                    <a href="#programs" className="text-dark text-decoration-none mx-1 mx-sm-3">Programe</a>
-                    <a href="#testimonials" className="text-dark text-decoration-none mx-1 mx-sm-3">Testimoniale</a>
-                    <NewsletterTrigger className="px-4 py-2 fw-semibold ms-2" />
-                </nav>
             </div>
-        </header>
-    )
+        </nav>
+    );
 }
